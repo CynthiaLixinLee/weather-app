@@ -1,7 +1,7 @@
 body {
-  background-image: url(http://uhd-wallpapers.net/1080p/dense-forest_394.jpeg);
+  background-image: url(https://images.pexels.com/photos/566496/pexels-photo-566496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   color: #0e211a;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .block {
@@ -34,36 +34,34 @@ button {
   justify-content: center;
 }
 
-.one {
+.icon {
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
   align-self: center;
 }
 
-.two {
+.temp {
   grid-column: 2;
   grid-row: 1;
   justify-self: end;
   align-self: center;
   font-size: 40px;
 }
-
-.three {
+.toggle-temp {
+  grid-row: 1;
+  align-self: start;
+  font-size: 25px;
+}
+.celcius {
   grid-column: 3;
-  grid-row: 1;
-  align-self: start;
-  font-size: 20px;
 }
 
-.four{
+.fahrenheit {
   grid-column: 4;
-  grid-row: 1;
-  align-self: start;
-  font-size: 20px;
 }
 
-.five{
+.description {
   grid-column: 1;
   grid-row: 2;
   justify-self: center;
@@ -76,7 +74,7 @@ button {
 
 .footer {
   text-align: center;
-  color: #1E483B;
+  color: #1e483b;
 }
 
 @media only screen and (max-width: 480px) {
